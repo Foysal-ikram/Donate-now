@@ -180,3 +180,47 @@ margin: 10px;
     font-weight: 300;
     font-family: monospace
 }
+
+.form-name{
+    background-color: antiquewhite;
+    display: flex;
+    padding-bottom: 75px;
+    padding-top: 50px;
+    margin-left: 290px;
+    margin-right: 275px;
+    justify-content: center;
+    border: 0px solid black;
+
+}
+
+.contact-form{
+    margin: auto;
+    width: 70%;
+    padding-left: 20px;
+    
+  
+}
+#subscribe-btn{
+    width: 50%;
+    margin-left:0;
+
+}
+.input-field{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    float: right;
+    border: 2px solid rgb(255, 94, 0);
+}
+
+.btn2{
+    display: inline-flex;
+    padding: 15.5px 40px;
+    color: aliceblue;
+    align-items:center;
+   
+    margin-top: 20px;
+    background-color: rgb(255, 72, 0);
+    border: 0 solid white;
+    position:absolute;
+}
