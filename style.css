@@ -1,9 +1,13 @@
-.header{
+body{
+    margin: 0;
+}
+.hero{
     background-image:linear-gradient(rgba(32, 30, 30, 0.438),rgba(0, 0, 0, 0.747)), url(images/donation7.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 50px 30px;
+    padding: 90px 30px 145px;
+    
 }
 
 .help{
@@ -16,13 +20,17 @@
 #txt1{
  
     font-weight: 900;
-    font-size: 40px;
+    font-size: 60px;
 }
 #txt2{
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 0 100px;
+}
+
+.btn{
+   display: flex;
 }
 .btn1{
     background-color: #c70da8;
@@ -40,3 +48,4 @@
 {
     background-color: #020305;
 }
+
