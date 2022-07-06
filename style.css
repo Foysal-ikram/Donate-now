@@ -36,7 +36,7 @@ body{
    justify-content: center;
 }
 .btn1{
-    background-color: #c70da8;
+    background-image: -webkit-linear-gradient(rgb(169, 60, 241), rgb(224, 20, 173));
  
     border: solid;
     color: white;
@@ -49,7 +49,7 @@ body{
 }
 .btn1:hover 
 {
-    background-color: #020305;
+    background-image:-webkit-linear-gradient(rgb(13, 141, 192), rgb(121, 20, 107));
 }
 
 .headline{
@@ -65,7 +65,7 @@ body{
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 0 200px;
+
     font-size: 16px;
     line-height: 22px;
 }
@@ -115,4 +115,68 @@ input[type=text]{
     justify-content: center;
     display: flex;
     
+}
+
+.strategy-box{
+    display: flex;
+    justify-content: center;
+    margin:30px 250px;
+}
+.strategy{
+    display: inline-block;
+justify-content: center;
+background-color: beige;
+width: 30%;
+height: 200px;
+padding: 30px;
+margin: 10px;
+
+}
+
+.strategy img{
+    margin: auto;
+    width: 50px;
+    height: 10vh;
+    display: flex;
+}
+
+.strategy h3{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.strategy p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.help-area{
+    margin-top: -90px;
+    display: flex;
+  
+
+}
+
+#donation1{
+   
+    width: 50%;
+ 
+}
+#donation{
+    width: 50%;
+    padding-top: 100px;
+    padding-right: 0px;
+ 
+}
+.footer{
+    background-color: rgb(8, 5, 37);
+    color: rgb(243, 89, 0);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding: 30px;
+    margin-top: 150px;
+}
+.footer h5{
+    color: aliceblue;
+    font-weight: 300;
+    font-family: monospace
 }
